@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {"source": "/admin/", "destination": "https://reachoutadmin.vercel.app/"},
+    {"source": "/admin/:match*", "destination": "https://reachoutadmin.vercel.app/:match*"},
+    {"source": "/", "destination": "https://reachout-sliv.vercel.com/"},
+    {"source": "/:match*", "destination": "https://reachout-sliv.vercel.com/:match*"}
+  ]
+}
